@@ -4,9 +4,10 @@ function connectServer(){
 
     var client=mysql.createConnection({
         host:'localhost',
+        port:'3306',
         user:'root',
-        password:'12qwas',
-        database:'dbTest'
+        password:'123456',
+        database:'dbtest'
     })
 
     return client;
